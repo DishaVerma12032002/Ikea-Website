@@ -1,0 +1,33 @@
+.header {
+    top:0;
+    min-height: 80px;
+    width: 90%;
+    margin: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.app-header{
+    background-image: url(https://img.freepik.com/premium-photo/dark-blue-mock-up-wall-living-room-with-chair-lamp-coffee-table-backdrop_410516-36919.jpg);
+}
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: lightseagreen;
+    margin: auto;
+    font-family: initial;
+    max-width: 100%;
+     font-weight: bolder;
+    
+}
+
+.header-links {
+    display: flex;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}

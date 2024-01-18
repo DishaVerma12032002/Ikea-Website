@@ -1,0 +1,97 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cart_items {
+    margin: 30px auto;
+    width: 95%;
+    background-color:gray; 
+    border: 2px solid green; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  .cart_items-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color:black;
+    color: white;
+    border-bottom: 4px solid #2980b9; /* Darker Blue */
+    font-weight: bold;
+  }
+  
+  .cart_items-image {
+    width: 100px;
+    height: auto;
+    border: 2px solid #2c3e50; /* Midnight Blue */
+    margin-right: 7px;
+  }
+  
+  .cart_items-list {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-weight: 500;
+  }
+  
+  .cart_items-name,
+  .cart_items-function {
+    width: 28%;
+  }
+  
+  .cart_items-add,
+  .cart_items-remove {
+    width: 30px;
+    margin-right: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cart_items-add {
+    background-color: black; /* Alizarin */
+  }
+  
+  .cart_items-remove {
+    background-color: black; /* Emerald */
+  }
+  
+  .cart_items-empty  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    background-color: #fff; /* White */
+    color: #e74c3c; /* Alizarin */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .clear_cart-button {
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    color: black; /* Dodger Blue */
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .clear_cart-button:hover {
+    background-color: #2980b9; /* Darker Blue */
+    color: lightblue;
+  }
+  
